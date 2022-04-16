@@ -4,7 +4,7 @@ import re
 name_check_list = []
 
 def cmd(directory):
-    main_cmd = f'eac3to {directory} 1) 1:Chapters.txt 2:video.*' 
+    main_cmd = f'eac3to {directory} 1) 1:Chapters.txt 2:video.*'
     final_cmd = main_cmd 
     content_list =  getinfo(directory)
     for line in content_list:
